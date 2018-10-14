@@ -4,7 +4,6 @@ import java.util.*;
 public class OnebyOne {
     public static void main(String args[]) {
         try {
-            int i;
             Reader r = new FileReader("d:/raw.txt");
             int c;
             while ((c = r.read()) != -1) {
